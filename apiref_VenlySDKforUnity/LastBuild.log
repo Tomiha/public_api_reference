@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.10.15.0" projectFile="D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\VenlySDKforUnity.shfbproj" started="24/11/2022 17:10:01">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2022.10.15.0
+Copyright &#169; 2006-2022, Eric Woodruff, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\_VENLY\_GIT\GSDK\_Unity3D\VenlySDK\Unity\VenlySDK_Main\Temp\Bin\Debug\Venly.dll
+    Found assembly &#39;D:\_VENLY\_GIT\GSDK\_Unity3D\VenlySDK\Unity\VenlySDK_Main\Temp\Bin\Debug\Venly.dll&#39;
+Source: D:\_VENLY\_GIT\GSDK\_Unity3D\VenlySDK\Unity\VenlySDK_Main\Temp\Bin\Debug\Venly.xml
+SHFB: Warning BE0006: Unable to locate any documentation sources for &#39;D:\_VENLY\_GIT\GSDK\_Unity3D\VenlySDK\Unity\VenlySDK_Main\Temp\Bin\Debug\Venly.xml&#39; (Configuration: Debug Platform: AnyCPU)
+Source: D:\_VENLY\_GIT\GSDK\_Unity3D\VenlySDK\Unity\VenlySDK_Main\Temp\Bin\Debug\Venly.Backends.PlayFab.dll
+    Found assembly &#39;D:\_VENLY\_GIT\GSDK\_Unity3D\VenlySDK\Unity\VenlySDK_Main\Temp\Bin\Debug\Venly.Backends.PlayFab.dll&#39;
+Source: D:\_VENLY\_GIT\GSDK\_Unity3D\VenlySDK\Unity\VenlySDK_Main\Temp\Bin\Debug\Venly.Backends.PlayFab.xml
+SHFB: Warning BE0006: Unable to locate any documentation sources for &#39;D:\_VENLY\_GIT\GSDK\_Unity3D\VenlySDK\Unity\VenlySDK_Main\Temp\Bin\Debug\Venly.Backends.PlayFab.xml&#39; (Configuration: Debug Platform: AnyCPU)
+SHFB: Warning BE0062: No documentation source XML comments files found.  The help file will not contain any member comments.
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00,0110
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-56648f2a-2962-4b3e-aa70-4c7fe8b81a17.proj]
+Build started 24/11/2022 17:10:01.
+Project &quot;D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\GenerateRefInfo-56648f2a-2962-4b3e-aa70-4c7fe8b81a17.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No suggested binding redirects from ResolveAssemblyReferences.
+GenerateRefInfo:
+  Microsoft.Build (v17.1.0+ae57d105c6094d8d59fe42f557ad0dcb46ec285e)
+  &#184; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 2 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 6 namespaces, 83 types, and 468 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\GenerateRefInfo-56648f2a-2962-4b3e-aa70-4c7fe8b81a17.proj&quot; (default targets).
+    Last step completed in 00:00:01,0190
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,0600
+</buildStep>
+<buildStep step="AddNamespaceGroups">
+Adding namespace group entries...
+Added 2 namespace group entries
+    Last step completed in 00:00:00,0360
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Unique name M_Venly_VenlyAPI_Initialize_1 generated for M:Venly.VenlyAPI.Initialize(Venly.Models.eVyBackendProvider,System.Int32)
+    Unique name M_Venly_VenlyAPI_Client_Wallet_GetNftTokenBalances_1 generated for M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(Venly.Models.eVySecretType,System.String)
+    Unique name M_Venly_Backends_IVenlyRequester_Request__1_1 generated for M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)
+    Unique name M_Venly_Backends_IVenlyRequester_Request__1_2 generated for M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)
+    Unique name M_Venly_Backends_IVenlyRequester_Request__1_3 generated for M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)
+    Unique name M_Venly_Utils_VenlyUtils_CatchAndForget__1_1 generated for M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise.Deferred})
+    Unique name M_Venly_Utils_VenlyUtils_WrapException_1 generated for M:Venly.Utils.VenlyUtils.WrapException(System.String)
+    Last step completed in 00:00:00,0270
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,0290
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0270
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\icons\logo_venly.png -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\icons\logo_venly.png
+    Last step completed in 00:00:00,0310
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,0340
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,2946
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0100
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0150
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.VenlyAPI] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.VenlyAPI.BackendExtension] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.VenlyAPI.CurrentEnvironement] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.HandleProviderError(System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.HandleProviderError(System.Object)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.HandleProviderError(System.Object)] Missing &lt;param name=&quot;err&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Initialize(Venly.Backends.BackendProvider,Venly.Models.eVyEnvironment)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Initialize(Venly.Backends.BackendProvider,Venly.Models.eVyEnvironment)] Missing &lt;param name=&quot;provider&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Initialize(Venly.Backends.BackendProvider,Venly.Models.eVyEnvironment)] Missing &lt;param name=&quot;env&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Initialize(Venly.Models.eVyBackendProvider,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Initialize(Venly.Models.eVyBackendProvider,System.Int32)] Missing &lt;param name=&quot;type&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Initialize(Venly.Models.eVyBackendProvider,System.Int32)] Missing &lt;param name=&quot;customId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.VenlyAPI.IsInitialized] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.RegisterProvider(Venly.Backends.BackendProvider)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.RegisterProvider(Venly.Backends.BackendProvider)] Missing &lt;param name=&quot;provider&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.SetRequesterData(System.String,System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.SetRequesterData(System.String,System.Object)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.SetRequesterData(System.String,System.Object)] Missing &lt;param name=&quot;data&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.VenlyAPI.Client.NFT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetChains] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetChains] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.NFT.GetChains] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetContract(System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetContract(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetContract(System.String,System.Int32)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetContract(System.String,System.Int32)] Missing &lt;param name=&quot;contractId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.NFT.GetContract(System.String,System.Int32)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetNftContracts(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetNftContracts(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetNftContracts(System.String)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.NFT.GetNftContracts(System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenMetadata(System.String,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenMetadata(System.String,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenMetadata(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenMetadata(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;contractId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenMetadata(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;tokenId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenMetadata(System.String,System.Int32,System.Int32)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokensForType(System.String,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokensForType(System.String,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokensForType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokensForType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;contractId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokensForType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;tokenTypeId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokensForType(System.String,System.Int32,System.Int32)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenType(System.String,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenType(System.String,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;contractId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;tokenTypeId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenType(System.String,System.Int32,System.Int32)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypeMetadata(System.String,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypeMetadata(System.String,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypeMetadata(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypeMetadata(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;contractId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypeMetadata(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;tokenTypeId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypeMetadata(System.String,System.Int32,System.Int32)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypes(System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypes(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypes(System.String,System.Int32)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypes(System.String,System.Int32)] Missing &lt;param name=&quot;contractId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.NFT.GetTokenTypes(System.String,System.Int32)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.VenlyAPI.Client.Wallet] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetBlockNumber(Venly.Models.eVySecretType)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetBlockNumber(Venly.Models.eVySecretType)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetBlockNumber(Venly.Models.eVySecretType)] Missing &lt;param name=&quot;secretType&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetBlockNumber(Venly.Models.eVySecretType)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetChains] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetChains] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetChains] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(System.String)] Missing &lt;param name=&quot;walletId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(Venly.Models.eVySecretType,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(Venly.Models.eVySecretType,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(Venly.Models.eVySecretType,System.String)] Missing &lt;param name=&quot;secretType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(Venly.Models.eVySecretType,System.String)] Missing &lt;param name=&quot;walletAddress&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetNftTokenBalances(Venly.Models.eVySecretType,System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTokenBalances(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTokenBalances(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTokenBalances(System.String)] Missing &lt;param name=&quot;walletId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTokenBalances(System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTransactionInfo(Venly.Models.eVySecretType,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTransactionInfo(Venly.Models.eVySecretType,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTransactionInfo(Venly.Models.eVySecretType,System.String)] Missing &lt;param name=&quot;secretType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTransactionInfo(Venly.Models.eVySecretType,System.String)] Missing &lt;param name=&quot;txHash&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetTransactionInfo(Venly.Models.eVySecretType,System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWallet(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWallet(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWallet(System.String)] Missing &lt;param name=&quot;walletId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWallet(System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWalletEvents(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWalletEvents(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWalletEvents(System.String)] Missing &lt;param name=&quot;walletId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWalletEvents(System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWallets] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWallets] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.GetWallets] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.ValidateWalletAddress(Venly.Models.eVySecretType,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.ValidateWalletAddress(Venly.Models.eVySecretType,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.ValidateWalletAddress(Venly.Models.eVySecretType,System.String)] Missing &lt;param name=&quot;secretType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.ValidateWalletAddress(Venly.Models.eVySecretType,System.String)] Missing &lt;param name=&quot;walletAddress&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.ValidateWalletAddress(Venly.Models.eVySecretType,System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.VenlyAPI.Client.Wallet.Swap] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.Swap.GetPairs(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.Swap.GetPairs(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.Swap.GetPairs(System.String)] Missing &lt;param name=&quot;walletId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.Swap.GetPairs(System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.Swap.GetRate(Venly.Models.VyParam_GetSwapRate)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.Swap.GetRate(Venly.Models.VyParam_GetSwapRate)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Client.Wallet.Swap.GetRate(Venly.Models.VyParam_GetSwapRate)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Client.Wallet.Swap.GetRate(Venly.Models.VyParam_GetSwapRate)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.VenlyAPI.Server.Authentication] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Authentication.GetAccessToken(System.String,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Authentication.GetAccessToken(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Authentication.GetAccessToken(System.String,System.String)] Missing &lt;param name=&quot;clientId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Authentication.GetAccessToken(System.String,System.String)] Missing &lt;param name=&quot;clientSecret&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Authentication.GetAccessToken(System.String,System.String)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.VenlyAPI.Server.NFT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveContract(System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveContract(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveContract(System.String,System.Int32)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveContract(System.String,System.Int32)] Missing &lt;param name=&quot;contractId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveContract(System.String,System.Int32)] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveTokenType(System.String,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveTokenType(System.String,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveTokenType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;applicationId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveTokenType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;contractId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveTokenType(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;tokenTypeId&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.NFT.ArchiveTokenType(System.String,System.Int32,System.Int32)] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.CreateContract(Venly.Models.VyParam_CreateContract)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.CreateContract(Venly.Models.VyParam_CreateContract)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.CreateContract(Venly.Models.VyParam_CreateContract)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.NFT.CreateContract(Venly.Models.VyParam_CreateContract)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.CreateTokenType(Venly.Models.VyParam_CreateTokenType)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.CreateTokenType(Venly.Models.VyParam_CreateTokenType)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.CreateTokenType(Venly.Models.VyParam_CreateTokenType)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.NFT.CreateTokenType(Venly.Models.VyParam_CreateTokenType)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.MintTokenFT(Venly.Models.VyParam_MintFT)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.MintTokenFT(Venly.Models.VyParam_MintFT)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.MintTokenFT(Venly.Models.VyParam_MintFT)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.NFT.MintTokenFT(Venly.Models.VyParam_MintFT)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.MintTokenNFT(Venly.Models.VyParam_MintNFT)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.MintTokenNFT(Venly.Models.VyParam_MintNFT)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.MintTokenNFT(Venly.Models.VyParam_MintNFT)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.NFT.MintTokenNFT(Venly.Models.VyParam_MintNFT)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.UpdateTokenTypeMetadata(Venly.Models.VyParam_UpdateMetadata)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.UpdateTokenTypeMetadata(Venly.Models.VyParam_UpdateMetadata)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.NFT.UpdateTokenTypeMetadata(Venly.Models.VyParam_UpdateMetadata)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.NFT.UpdateTokenTypeMetadata(Venly.Models.VyParam_UpdateMetadata)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.VenlyAPI.Server.Wallet] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.CreateWallet(Venly.Models.VyParam_CreateWallet)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.CreateWallet(Venly.Models.VyParam_CreateWallet)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.CreateWallet(Venly.Models.VyParam_CreateWallet)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.CreateWallet(Venly.Models.VyParam_CreateWallet)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteContract(Venly.Models.VyParam_ExecuteContract)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteContract(Venly.Models.VyParam_ExecuteContract)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteContract(Venly.Models.VyParam_ExecuteContract)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteContract(Venly.Models.VyParam_ExecuteContract)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteNftTransfer(Venly.Models.VyParam_ExecuteNftTransfer)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteNftTransfer(Venly.Models.VyParam_ExecuteNftTransfer)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteNftTransfer(Venly.Models.VyParam_ExecuteNftTransfer)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteNftTransfer(Venly.Models.VyParam_ExecuteNftTransfer)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteTokenTransfer(Venly.Models.VyParam_ExecuteTokenTransfer)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteTokenTransfer(Venly.Models.VyParam_ExecuteTokenTransfer)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteTokenTransfer(Venly.Models.VyParam_ExecuteTokenTransfer)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteTokenTransfer(Venly.Models.VyParam_ExecuteTokenTransfer)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteTransfer(Venly.Models.VyParam_ExecuteTransfer)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteTransfer(Venly.Models.VyParam_ExecuteTransfer)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteTransfer(Venly.Models.VyParam_ExecuteTransfer)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ExecuteTransfer(Venly.Models.VyParam_ExecuteTransfer)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExportWallet(Venly.Models.VyParam_ExportWallet)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExportWallet(Venly.Models.VyParam_ExportWallet)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ExportWallet(Venly.Models.VyParam_ExportWallet)] Missing &lt;param name=&quot;reqParamsExport&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ExportWallet(Venly.Models.VyParam_ExportWallet)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ImportWallet(Venly.Models.VyParam_ImportWallet)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ImportWallet(Venly.Models.VyParam_ImportWallet)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ImportWallet(Venly.Models.VyParam_ImportWallet)] Missing &lt;param name=&quot;reqParamsImport&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ImportWallet(Venly.Models.VyParam_ImportWallet)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ReadContract(Venly.Models.VyParam_ReadContract)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ReadContract(Venly.Models.VyParam_ReadContract)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ReadContract(Venly.Models.VyParam_ReadContract)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ReadContract(Venly.Models.VyParam_ReadContract)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ResetPin(Venly.Models.VyParam_UpdateWalletSecurity)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ResetPin(Venly.Models.VyParam_UpdateWalletSecurity)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ResetPin(Venly.Models.VyParam_UpdateWalletSecurity)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ResetPin(Venly.Models.VyParam_UpdateWalletSecurity)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ResubmitTransaction(Venly.Models.VyParam_ResubmitTransaction)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ResubmitTransaction(Venly.Models.VyParam_ResubmitTransaction)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.VenlyAPI.Server.Wallet.ResubmitTransaction(Venly.Models.VyParam_ResubmitTransaction)] Missing &lt;param name=&quot;reqParams&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.VenlyAPI.Server.Wallet.ResubmitTransaction(Venly.Models.VyParam_ResubmitTransaction)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [N:Venly.Backends] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.BackendProvider] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Backends.BackendProvider.CustomId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.BackendProvider.Deinitialize] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Backends.BackendProvider.Extensions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.BackendProvider.HandleError(System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.BackendProvider.HandleError(System.Object)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.BackendProvider.HandleError(System.Object)] Missing &lt;param name=&quot;err&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.BackendProvider.Initialize] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Backends.BackendProvider.IsInitialized] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Backends.BackendProvider.ProviderType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Backends.BackendProvider.Requester] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.DefaultBackendExtension] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.DefaultBackendExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.DefaultBackendExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.DefaultBackendExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;param name=&quot;walletDetails&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.DefaultBackendExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.DefaultBackendExtension.GetWalletForUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.DefaultBackendExtension.GetWalletForUser] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.DefaultBackendExtension.GetWalletForUser] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.IBackendExtension] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IBackendExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IBackendExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IBackendExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;param name=&quot;walletDetails&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.IBackendExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IBackendExtension.GetWalletForUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IBackendExtension.GetWalletForUser] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.IBackendExtension.GetWalletForUser] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.IVenlyRequester] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.RemoveData(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.RemoveData(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.RemoveData(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Boolean)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Boolean)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Boolean)] Missing &lt;param name=&quot;method&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Boolean)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Boolean)] Missing &lt;param name=&quot;endpoint&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Boolean)] Missing &lt;param name=&quot;wrap&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Boolean)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Missing &lt;param name=&quot;method&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Missing &lt;param name=&quot;endpoint&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Missing &lt;param name=&quot;jsonData&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Missing &lt;param name=&quot;wrap&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Missing &lt;param name=&quot;method&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Missing &lt;param name=&quot;endpoint&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Missing &lt;param name=&quot;formData&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Missing &lt;param name=&quot;wrap&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Missing &lt;param name=&quot;method&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Missing &lt;param name=&quot;endpoint&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Missing &lt;param name=&quot;jsonData&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Missing &lt;param name=&quot;wrap&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.IVenlyRequester.Request``1(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,System.String,System.Boolean)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;typeparam name=&quot;TBody&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;method&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;endpoint&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;body&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;wrap&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.IVenlyRequester.Request_FORM``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;typeparam name=&quot;TBody&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;method&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;endpoint&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;body&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Missing &lt;param name=&quot;wrap&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.IVenlyRequester.Request_JSON``2(System.Net.Http.HttpMethod,System.String,Venly.Models.eVyApiEndpoint,``1,System.Boolean)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.SetData(System.String,System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.SetData(System.String,System.Object)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.IVenlyRequester.SetData(System.String,System.Object)] Missing &lt;param name=&quot;data&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Venly.Backends.Local] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.Local.LocalProvider] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.Local.LocalRequester] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.Local.LocalRequester.#ctor(System.String,System.String)] Missing &lt;param name=&quot;clientId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.Local.LocalRequester.#ctor(System.String,System.String)] Missing &lt;param name=&quot;clientSecret&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Venly.Backends.PlayFab] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.PlayFab.VyPlayFabExtension] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabExtension.#ctor(Venly.Backends.PlayFab.VyPlayfabRequester)] Missing &lt;param name=&quot;requester&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Missing &lt;param name=&quot;walletDetails&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.PlayFab.VyPlayFabExtension.CreateWalletForUser(Venly.Models.VyParam_CreateWallet)] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabExtension.GetWalletForUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabExtension.GetWalletForUser] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Backends.PlayFab.VyPlayFabExtension.GetWalletForUser] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.PlayFab.VyPlayFabProvider] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabProvider.HandleError(System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabProvider.HandleError(System.Object)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayFabProvider.HandleError(System.Object)] Missing &lt;param name=&quot;err&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Backends.PlayFab.VyPlayfabRequester] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Backends.PlayFab.VyPlayfabRequester.AuthContextDataKey] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Backends.PlayFab.VyPlayfabRequester.HasAuthContext] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayfabRequester.SetData(System.String,System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayfabRequester.SetData(System.String,System.Object)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Backends.PlayFab.VyPlayfabRequester.SetData(System.String,System.Object)] Missing &lt;param name=&quot;data&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Venly.Models] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVyApiEndpoint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVyBackendProvider] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVyEnvironment] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVyExchange] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVyOrderType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVySecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVyStorageType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVyTransactionStatus] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.eVyWalletType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyAccessToken] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.IsValid] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.NotBeforePolicy] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.RefreshToken] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.RefreshTokenExpire] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.Scope] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.SessionState] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.Token] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.TokenExpire] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyAccessToken.TokenType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyApp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyApp.ClientId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyApp.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyApp.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyApp.ImageUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyApp.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyApp.RedirectUris] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyApp.RootUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyBlockchainInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyBlockchainInfo.BlockNumber] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyBlockchainInfo.ChainId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyBlockchainInfo.RequiredConfirmations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyContract] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Address] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Confirmed] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.ExternalLink] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.ExternalUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Image] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Media] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Owner] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.SecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Storage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.Symbol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContract.TransactionHash] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyContractExecutionRequest] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContractExecutionRequest.FunctionName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContractExecutionRequest.Inputs] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContractExecutionRequest.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContractExecutionRequest.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyContractInput] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContractInput.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContractInput.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyContractOutput] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyContractOutput.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyExchangeRate] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyExchangeRate.Exchange] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyExchangeRate.Fee] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyExchangeRate.InputAmount] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyExchangeRate.OrderType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyExchangeRate.OutputAmount] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyExchangeRate.Slippage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyExchangeRateResult] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyExchangeRateResult.BestRate] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyExchangeRateResult.ExchangeRates] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyFungibleToken] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.Balance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.Decimals] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.Logo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.RawBalance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.Symbol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.TokenAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.Transferable] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyFungibleToken.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyGasTransferRequest] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyGasTransferRequest.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyGasTransferRequest.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyMintedTokenInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyMintedTokenInfo.Metadata] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:Venly.Models.VyMintedTokenInfo.Metadata] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyMintedTokenInfo.MintedTokens] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyMintedTokenInfo.VyMintedTokenDestination] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyMintedTokenInfo.VyMintedTokenDestination.Destination] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyMintedTokenInfo.VyMintedTokenDestination.TokenId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyMintedTokenInfo.VyMintedTokenDestination.TransactionHash] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyNftTransferRequest] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNftTransferRequest.Amount] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNftTransferRequest.FromAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNftTransferRequest.TokenAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNftTransferRequest.TokenId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNftTransferRequest.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyNonFungibleToken] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.AnimationUrls] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.Attributes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.BackgroundColor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.Contract] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.Fungible] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.GetAttribute(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.GetAttribute(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.GetAttribute(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.GetAttributeValue``1(System.String,``0)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.GetAttributeValue``1(System.String,``0)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.GetAttributeValue``1(System.String,``0)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.GetAttributeValue``1(System.String,``0)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.GetAttributeValue``1(System.String,``0)] Missing &lt;param name=&quot;defaultValue&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.HasAttribute(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.HasAttribute(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyNonFungibleToken.HasAttribute(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.ImagePreviewUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.ImageThumbnailUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.ImageUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.TransferFees] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyNonFungibleToken.Url] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_CreateContract] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateContract.ApplicationId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateContract.Chain] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateContract.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateContract.ExternalUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateContract.Media] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateContract.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateContract.Owner] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateContract.Symbol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_CreateTokenType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.AnimationUrls] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.ApplicationId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.Attributes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.BackgroundColor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.Burnable] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.ContractId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.Destinations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.ExternalUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.Fungible] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.ImageUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.MaxSupply] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateTokenType.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_CreateWallet] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateWallet.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateWallet.Identifier] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateWallet.Pincode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateWallet.SecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_CreateWallet.WalletType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_Execute`1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_Execute`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_Execute`1.Pincode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_Execute`1.Request] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ExecuteContract] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ExecuteGasTransfer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ExecuteNftTransfer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ExecuteTokenTransfer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ExecuteTransfer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ExportWallet] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ExportWallet.Password] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ExportWallet.Pincode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ExportWallet.WalletId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_GetSwapRate] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_GetSwapRate.Amount] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_GetSwapRate.FromSecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_GetSwapRate.FromToken] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_GetSwapRate.OrderType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_GetSwapRate.ToSecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_GetSwapRate.ToToken] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ImportWallet] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyParam_ImportWallet.#ctor(System.String)] Missing &lt;param name=&quot;importType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ImportWallet.Clients] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ImportWallet.Pincode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ImportWallet.SourceChain] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ImportWallet.WalletType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_MintFT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintFT.Amounts] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintFT.ApplicationId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintFT.ContractId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintFT.Destinations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintFT.TokenId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_MintNFT] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintNFT.ApplicationId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintNFT.ContractId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintNFT.Destinations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_MintNFT.TokenId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ReadContract] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ReadContract.ContractAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ReadContract.FunctionName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ReadContract.Inputs] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ReadContract.Outputs] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ReadContract.SecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ReadContract.WalletAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_ResubmitTransaction] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ResubmitTransaction.Pincode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ResubmitTransaction.SecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_ResubmitTransaction.TransactionHash] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_UpdateMetadata] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.AnimationUrls] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.ApplicationId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.Atrributes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.BackgroundColor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.ContractId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.Destinations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.ExternalUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.ImageUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateMetadata.TokenTypeId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParam_UpdateWalletSecurity] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateWalletSecurity.HasCustomPin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateWalletSecurity.NewPincode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateWalletSecurity.Pincode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateWalletSecurity.Recoverable] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParam_UpdateWalletSecurity.WalletId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParamImportWalletKeystore] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParamImportWalletKeystore.Keystore] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:Venly.Models.VyParamImportWalletKeystore.Keystore] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParamImportWalletKeystore.Password] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParamImportWalletPrivateKey] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParamImportWalletPrivateKey.PrivateKey] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyParamImportWalletWif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyParamImportWalletWif.Wif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyReponseError] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyReponseError.Code] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyReponseError.FromException(System.Exception)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyReponseError.FromException(System.Exception)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyReponseError.FromException(System.Exception)] Missing &lt;param name=&quot;ex&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyReponseError.Message] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyReponseError.TraceCode] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyResponse`1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyResponse`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponse`1.Data] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponse`1.Errors] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyResponse`1.FromException(System.Exception)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyResponse`1.FromException(System.Exception)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyResponse`1.FromException(System.Exception)] Missing &lt;param name=&quot;ex&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponse`1.Pagination] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponse`1.Success] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyResponse`1.ToException(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyResponse`1.ToException(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyResponse`1.ToException(System.String)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyResponsePagination] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponsePagination.HasNextPage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponsePagination.HasPreviousPage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponsePagination.NumberOfElements] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponsePagination.NumberOfPages] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponsePagination.PageNumber] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Venly.Models.VyResponsePagination.PageSize] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyStorage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyStorage.Location] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyStorage.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTokenAttribute] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenAttribute.As``1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenAttribute.As``1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenAttribute.As``1] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenAttribute.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenAttribute.ToString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenAttribute.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenAttribute.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenAttribute.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTokenDestination] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenDestination.Address] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenDestination.Amount] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTokenTransferRequest] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenTransferRequest.TokenAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenTransferRequest.TokenId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenTransferRequest.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenTransferRequest.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTokenType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.AnimationUrls] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Attributes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.BackgroundColor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Burnable] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Confirmed] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.CurrentSupply] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.ExternalUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Fungible] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.GetAttribute(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.GetAttribute(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.GetAttribute(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.HasAttribute(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.HasAttribute(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.HasAttribute(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.HasAttribute``1(System.String,``0)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.HasAttribute``1(System.String,``0)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.HasAttribute``1(System.String,``0)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.HasAttribute``1(System.String,``0)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Models.VyTokenType.HasAttribute``1(System.String,``0)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Image] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.ImagePreview] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.ImageThumbnail] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.MaxSupply] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.Storage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.TransactionHash] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTokenType.YoutubeUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTradingPair] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTradingPair.From] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTradingPair.To] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTradingPairDetails] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTradingPairDetails.SecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTradingPairDetails.Symbol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTradingPairDetails.TokenAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTransactionInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransactionInfo.BlockHash] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransactionInfo.BlockNumber] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransactionInfo.Confirmations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransactionInfo.Hash] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransactionInfo.HasReachedFinality] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransactionInfo.Status] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTransferInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransferInfo.Details] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransferInfo.TransactionHash] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTransferRequest] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransferRequest.Data] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransferRequest.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransferRequest.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTransferRequestBase] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransferRequestBase.SecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransferRequestBase.ToAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTransferRequestBase.WalletId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyTypeValuePair] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTypeValuePair.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyTypeValuePair.Value] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyWallet] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.Address] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.Archived] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.Balance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.CreatedAt] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.HasCustomerPin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.Identifier] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.Primary] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.SecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWallet.WalletType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyWalletBalance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.Available] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.Balance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.Decimals] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.GasBalance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.GasSymbol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.RawBalance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.RawGasBalance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.SecretType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletBalance.Symbol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyWalletEvent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletEvent.ApiToken] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletEvent.Client] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletEvent.EventType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletEvent.Metadata] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletEvent.Timestamp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletEvent.walletId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyWalletExport] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletExport.Keystore] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyWalletTokenContract] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Address] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Categories] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.ImageUrl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Media] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Premium] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Symbol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Url] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletTokenContract.Verified] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Models.VyWalletValidation] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Venly.Models.VyWalletValidation.Valid] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Venly.Utils] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Venly.Utils.VenlyUtils] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Missing &lt;param name=&quot;p&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Missing &lt;param name=&quot;deferred&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise`1.Deferred&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;param name=&quot;p&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;param name=&quot;deferred&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise.Deferred&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget(Proto.Promises.Promise,System.Nullable{Proto.Promises.Promise.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;param name=&quot;p&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;param name=&quot;deferred&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise.Deferred&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``1(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``2(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise{``1}.Deferred})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``2(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise{``1}.Deferred})] Missing &lt;typeparam name=&quot;T0&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``2(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise{``1}.Deferred})] Missing &lt;typeparam name=&quot;T1&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``2(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise{``1}.Deferred})] Missing &lt;param name=&quot;p&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``2(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise{``1}.Deferred})] Missing &lt;param name=&quot;deferred&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``2(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise{``1}.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``2(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise{``1}.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise`1.Deferred&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchAndForget``2(Proto.Promises.Promise{``0},System.Nullable{Proto.Promises.Promise{``1}.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchException(Proto.Promises.Promise)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchException(Proto.Promises.Promise)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchException(Proto.Promises.Promise)] Missing &lt;param name=&quot;p&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchException(Proto.Promises.Promise)] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchException(Proto.Promises.Promise)] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchException(Proto.Promises.Promise)] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchException``1(Proto.Promises.Promise{``0})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchException``1(Proto.Promises.Promise{``0})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchException``1(Proto.Promises.Promise{``0})] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.CatchException``1(Proto.Promises.Promise{``0})] Missing &lt;param name=&quot;p&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchException``1(Proto.Promises.Promise{``0})] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchException``1(Proto.Promises.Promise{``0})] Unknown reference link target &#39;T:Proto.Promises.Promise&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.CatchException``1(Proto.Promises.Promise{``0})] Unknown reference link target &#39;T:Proto.Promises.Promise`1&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.ConvertToFormContent``1(``0)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.ConvertToFormContent``1(``0)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.ConvertToFormContent``1(``0)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.ConvertToFormContent``1(``0)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetBaseUrl(Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetBaseUrl(Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetBaseUrl(Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;param name=&quot;endpoint&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetBaseUrl(Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;param name=&quot;env&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetUrl(System.String,Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetUrl(System.String,Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetUrl(System.String,Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetUrl(System.String,Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;param name=&quot;endpoint&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.GetUrl(System.String,Venly.Models.eVyApiEndpoint,Venly.Models.eVyEnvironment)] Missing &lt;param name=&quot;env&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleException(System.Exception)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleException(System.Exception)] Missing &lt;param name=&quot;ex&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleReject``1(System.Object,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleReject``1(System.Object,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleReject``1(System.Object,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Missing &lt;param name=&quot;err&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleReject``1(System.Object,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Missing &lt;param name=&quot;deferred&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.HandleReject``1(System.Object,System.Nullable{Proto.Promises.Promise{``0}.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise`1.Deferred&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleReject(System.Object,System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleReject(System.Object,System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;param name=&quot;err&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.HandleReject(System.Object,System.Nullable{Proto.Promises.Promise.Deferred})] Missing &lt;param name=&quot;deferred&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.HandleReject(System.Object,System.Nullable{Proto.Promises.Promise.Deferred})] Unknown reference link target &#39;T:Proto.Promises.Promise.Deferred&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.WrapException(System.Exception)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.WrapException(System.Exception)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.WrapException(System.Exception)] Missing &lt;param name=&quot;ex&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.WrapException(System.Exception)] Unknown reference link target &#39;T:VenlyException&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.WrapException(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.WrapException(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Venly.Utils.VenlyUtils.WrapException(System.String)] Missing &lt;param name=&quot;msg&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Venly.Utils.VenlyUtils.WrapException(System.String)] Unknown reference link target &#39;T:VenlyException&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [G:Venly] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [G:Venly.Backends] Missing &lt;summary&gt; documentation
+Processed 603 topic(s)
+752 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:08,7520
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; D:\_VENLY\_GIT\GSDK\_Unity3D\Documentation\apiref_VenlySDKforUnity\working\Output\Website\Web.Config
+    Last step completed in 00:00:00,4130
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00,2437
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 827 files for the website content
+    Last step completed in 00:00:02,0423
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,3930
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 24/11/2022 17:10:15.  Total time: 00:00:13,8640
+
+</buildStep>
+</shfbBuild>
